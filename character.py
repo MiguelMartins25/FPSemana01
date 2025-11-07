@@ -1,20 +1,22 @@
 # Avaliação Semana 01 #
 
 char1 = input()
-A1 = input()
-D1 = input()
+A1 = int(input())
+D1 = int(input())
 char2 = input()
-A2 = input()
-D2 = input()
+A2 = int(input())
+D2 = int(input())
 char3 = input()
-A3 = input()
-D3 = input()
+A3 = int(input())
+D3 = int(input())
 
-stats1 = (int(A1),int(D1))
-stats2 = (int(A2),int(D2))
-stats3 = (int(A3),int(D3))
+stats1 = (A1,D1)
+stats2 = (A2,D2)
+stats3 = (A3,D3)
 
-characters = [[char1,stats1],[char2,stats2],[char3,stats3]]
+characters = [[char1,stats1],
+              [char2,stats2],
+              [char3,stats3]]
 
 print(characters)
 if A1 > A2 and A1 > A3:
